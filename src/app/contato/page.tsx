@@ -1,28 +1,27 @@
-import { MapPin, Phone, Envelope, WhatsappLogo } from "@phosphor-icons/react";
 import Link from "next/link";
 
 export default function Contact() {
   const contactInfo = [
     {
-      icon: Phone,
+      icon: <p>A</p>,
       title: "Telefone",
       content: "(11) 3456-7890",
       href: "tel:+551134567890"
     },
     {
-      icon: WhatsappLogo,
+      icon: <p>A</p>,
       title: "WhatsApp",
       content: "(11) 98765-4321",
       href: "https://wa.me/5511987654321"
     },
     {
-      icon: Envelope,
+      icon: <p>A</p>,
       title: "E-mail",
       content: "contato@pediu.ai",
       href: "mailto:contato@pediu.ai"
     },
     {
-      icon: MapPin,
+      icon: <p>A</p>,
       title: "Endereço",
       content: "Av. Paulista, 1000 - São Paulo",
       href: "https://maps.google.com"
@@ -137,7 +136,7 @@ export default function Contact() {
                     href={item.href}
                     className="flex items-center gap-6 p-6 bg-gray-50 rounded-2xl hover:bg-gray-100 transition-colors"
                   >
-                    <item.icon className="w-8 h-8 text-purple-600" />
+                    {/* <item.icon className="w-8 h-8 text-purple-600" /> */}
                     <div>
                       <h3 className="font-bold text-lg mb-1 font-display">{item.title}</h3>
                       <p className="text-gray-600 font-body">{item.content}</p>

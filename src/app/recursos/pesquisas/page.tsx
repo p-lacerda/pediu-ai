@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export default function PesquisasPage() {
   return (
     <div className="min-h-screen bg-white">

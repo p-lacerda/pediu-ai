@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export default function RelatoriosPage() {
   return (
     <div className="min-h-screen bg-white">
