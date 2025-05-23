@@ -1,0 +1,9 @@
+@import url('https://api.fontshare.com/v2/css?f[]=clash-grotesk@200,300,500,600,700,1&display=swap');
+
+:root {
+  --font-clash-grotesk: 'Clash Grotesk', sans-serif;
+}
+
+* {
+  font-family: var(--font-clash-grotesk);
+} 
